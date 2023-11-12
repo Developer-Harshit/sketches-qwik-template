@@ -7,7 +7,12 @@ import P5card from "~/components/p5card/p5card";
 export default component$(() => {
   return (
     <>
-  
+    <h1 class="bg-white">hi</h1>
+    <P5card>
+      <span q: slot = "links">
+      <script src="/js/sketch.js"></script>
+      </span>
+    </P5card>
     
     </>
   )
