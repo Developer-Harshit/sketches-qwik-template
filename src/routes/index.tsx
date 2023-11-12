@@ -1,7 +1,5 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import P5card from "~/components/p5card/p5card";
-
 
 
 export default component$(() => {
