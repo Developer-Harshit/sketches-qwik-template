@@ -1,4 +1,4 @@
-import { Slot, component$, useStyles$, useStylesScoped$ } from "@builder.io/qwik";
+import { Slot, component$, useStyles$ } from "@builder.io/qwik";
 
 import CardStyles from "./style.css?inline"
 
