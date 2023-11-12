@@ -1,9 +1,9 @@
-import { Slot, component$ } from "@builder.io/qwik";
+import { Slot, component$, useStylesScoped$ } from "@builder.io/qwik";
 
-
+import CardStyles from "./style.css?inline"
 
 export default component$(() => {
-    
+    useStylesScoped$(CardStyles)
   return (
     <>
     <script src="/js/libraries/p5.js"></script>
